@@ -2,21 +2,25 @@
 <html lang="zh">
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-<title>分类 - Jiefa</title>
+<title>css选择器 - Jiefa</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-    <meta name="keywords" content="css">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Jiefa">
-<meta property="og:url" content="http://florencev.github.io/categories/index.html">
+    <meta name="description" content="除了教程中的id选择器和class选择器，另还有元素选择器、属性选择器、包含选择器、子选择器和CSS3中新增的兄弟选择器，以下带上ID选择器和类选择器一起举例。1.ID 选择器（ID selector，IS）：使用 # 标识selector，语法格式：#S{…}（S为选择器名）。例：id为name的标签会匹配下面的样式123456&amp;lt;style&amp;gt;#name&amp;#123;  colo">
+<meta name="keywords" content="css">
+<meta property="og:type" content="article">
+<meta property="og:title" content="css选择器">
+<meta property="og:url" content="http://florencev.github.io/2019/04/09/css选择器/index.html">
 <meta property="og:site_name" content="Jiefa">
+<meta property="og:description" content="除了教程中的id选择器和class选择器，另还有元素选择器、属性选择器、包含选择器、子选择器和CSS3中新增的兄弟选择器，以下带上ID选择器和类选择器一起举例。1.ID 选择器（ID selector，IS）：使用 # 标识selector，语法格式：#S{…}（S为选择器名）。例：id为name的标签会匹配下面的样式123456&amp;lt;style&amp;gt;#name&amp;#123;  colo">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://florencev.github.io/images/og_image.png">
+<meta property="og:image" content="http://florencev.github.io/images/css.png">
+<meta property="og:updated_time" content="2019-04-16T13:03:28.936Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Jiefa">
-<meta name="twitter:image" content="http://florencev.github.io/images/og_image.png">
+<meta name="twitter:title" content="css选择器">
+<meta name="twitter:description" content="除了教程中的id选择器和class选择器，另还有元素选择器、属性选择器、包含选择器、子选择器和CSS3中新增的兄弟选择器，以下带上ID选择器和类选择器一起举例。1.ID 选择器（ID selector，IS）：使用 # 标识selector，语法格式：#S{…}（S为选择器名）。例：id为name的标签会匹配下面的样式123456&amp;lt;style&amp;gt;#name&amp;#123;  colo">
+<meta name="twitter:image" content="http://florencev.github.io/images/css.png">
 
 
 
@@ -90,7 +94,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/favicon.ico" alt="Jiefa" height="28">
+                <img src="/images/favicon.ico" alt="css选择器" height="28">
             
             </a>
         </div>
@@ -102,7 +106,7 @@
                 
                 <a class="navbar-item" href="/archives">归档</a>
                 
-                <a class="navbar-item is-active" href="/categories">分类</a>
+                <a class="navbar-item" href="/categories">分类</a>
                 
                 <a class="navbar-item" href="/tags">标签</a>
                 
@@ -112,6 +116,10 @@
             
             <div class="navbar-end">
                 
+                
+                <a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;">
+                    <i class="fas fa-list-ul"></i>
+                </a>
                 
                 
                 <a class="navbar-item search" title="搜索" href="javascript:;">
@@ -126,27 +134,122 @@
     <section class="section">
         <div class="container">
             <div class="columns">
-                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main">
-<div class="card widget">
+                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main"><div class="card">
+    
+    <div class="card-image">
+        <span class="image is-7by1">
+            <img class="thumbnail" src="/images/css.png" alt="css选择器">
+        </span>
+    </div>
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2019-04-09T01:03:50.000Z">2019-04-09</time>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    6 分钟 读完 (大约 843 个字)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                css选择器
+            
+        </h1>
+        <div class="content">
+            <!-- ![css 图片](http://www.runoob.com/wp-content/uploads/2019/03/A042DF30-C232-46F3-8436-7D6C35351BBD.jpg)-->
+<!-- ![css 图片](images/css.png) -->
+<!-- photos: - "https://faithlove.github.io/pic/2018/HexoThumb/topPicPre.png" -->
+<!-- <img src="images/css.png"> -->
+<p>除了教程中的id选择器和class选择器，另还有元素选择器、属性选择器、包含选择器、子选择器和CSS3中新增的兄弟选择器，以下带上ID选择器和类选择器一起举例。<br>1.ID 选择器（ID selector，IS）：使用 # 标识selector，语法格式：#S{…}（S为选择器名）。例：id为name的标签会匹配下面的样式<br><figure class="highlight hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="hljs-selector-tag">style</span>&gt;</span><br><span class="line"><span class="hljs-selector-id">#name</span>&#123;</span><br><span class="line">  <span class="hljs-attribute">color</span>:red;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;p id="name"&gt;red text&lt;/p&gt;</span><br></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<!--下面文字是红色的-->
+<p id="name" style="color: red;">red text</p>
+
+<p>2.类选择器（class selector，CS）：使用 . 标识selector，语法格式：.S{…}（S为选择器名）。例：class属性值为value的标签会匹配下面的样式<br><figure class="highlight hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="hljs-selector-tag">style</span>&gt;</span><br><span class="line"><span class="hljs-selector-class">.value</span>&#123;</span><br><span class="line">  <span class="hljs-attribute">text-align</span>:center;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;!<span class="hljs-selector-tag">--</span>下面的文字是居中对齐的<span class="hljs-selector-tag">--</span>&gt;</span><br><span class="line">&lt;p class="value"&gt;center text&lt;/p&gt;</span><br></pre></td></tr></table></figure></p>
+<p class="value" style="text-align:center;">center text</p>
+
+<p>3.元素选择器（element selector，ES）：又叫标签选择器，使用标签名作为selector名，语法格式：S{…}（S为选择器名）。例：所有的p标签都会匹配以下的样式<br><figure class="highlight hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="hljs-selector-tag">style</span>&gt;</span><br><span class="line"><span class="hljs-selector-tag">p</span>&#123;</span><br><span class="line">  <span class="hljs-attribute">font-style</span>:italic;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;!<span class="hljs-selector-tag">--</span>下面的文字是斜体的<span class="hljs-selector-tag">--</span>&gt;</span><br><span class="line">&lt;p style="font-style:italic"&gt;italic text&lt;/p&gt;</span><br></pre></td></tr></table></figure></p>
+<!--下面的文字是斜体的-->
+<p style="font-style:italic">italic text</p>
+
+<p>4.属性选择器（attribute selector，AS）：ES其实是AS的一个特例，在AS基础上还能对selector描述得更具体，语法格式为 E[attr[~=][|=][^=][$=][*=]VALUE]{…}，是并没有得到所有浏览器支持的选择器，因此不举例<br><figure class="highlight html hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>blank<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>5.包含选择器（package selector，PS）：指定目标选择器必须处在某个选择器对应的元素内部，语法格式：A B{…}（A、B为HTML元素/标签，表示对处于A中的B标签有效）。例：以下div内的p标签和div外的p标签分别匹配不同的样式<br><figure class="highlight hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="hljs-selector-tag">style</span>&gt;</span><br><span class="line"><span class="hljs-selector-tag">p</span>&#123;</span><br><span class="line">  <span class="hljs-attribute">color</span>:red;</span><br><span class="line">&#125;</span><br><span class="line"><span class="hljs-selector-tag">div</span> <span class="hljs-selector-tag">p</span>&#123;</span><br><span class="line">  <span class="hljs-attribute">color</span>:yellow;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;p&gt;red text&lt;/p&gt;&lt;!--文字是红色的--&gt;</span><br><span class="line">&lt;<span class="hljs-selector-tag">div</span>&gt;</span><br><span class="line">  &lt;p&gt;yellow text&lt;/p&gt;&lt;!--文字是黄色的--&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></p>
+<p></p><p style="color: red;">red text</p><!--文字是红色的--><p></p>
+<div><br>  <p style="color: yellow;">yellow text</p><!--文字是黄色的--><br></div><br>6.子选择器（sub-selector，SS）：类似于PS，指定目标选择器必须处在某个选择器对应的元素内部，两者区别在于PS允许”子标签”甚至”孙子标签”及嵌套更深的标签匹配相应的样式，而SS强制指定目标选择器作为 包含选择器对应的标签 内部的标签，语法格式：A&gt;B{…}（A、B为HTML元素/标签）。例：以下div内的p标签匹配样式，div内的table内的p不匹配<br><figure class="highlight hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="hljs-selector-tag">style</span>&gt;</span><br><span class="line"><span class="hljs-selector-tag">div</span>&gt;<span class="hljs-selector-tag">p</span>&#123;</span><br><span class="line">  <span class="hljs-attribute">color</span>:red;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;<span class="hljs-selector-tag">div</span>&gt;</span><br><span class="line">  &lt;p&gt;red text&lt;/p&gt;&lt;!--文字是红色的--&gt;</span><br><span class="line">  &lt;<span class="hljs-selector-tag">table</span>&gt;</span><br><span class="line">    &lt;<span class="hljs-selector-tag">tr</span>&gt;</span><br><span class="line">      &lt;<span class="hljs-selector-tag">td</span>&gt;</span><br><span class="line">        &lt;p&gt;no red text;&lt;/p&gt;&lt;!--文字是非红色的--&gt;</span><br><span class="line">      &lt;/td&gt;</span><br><span class="line">    &lt;/tr&gt;</span><br><span class="line">  &lt;/table&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure><br><br><div><br>  <p style="color: red;">red text</p><!--文字是红色的--><br>  <table><br>    <tr><br>      <td><br>        <p>no red text;</p><!--文字是非红色的--><br>      </td><br>    </tr><br>  </table><br></div><br>7.兄弟选择器（brother selector，BS）：BS是CSS3.0新增的一个选择器，语法格式：A~B{…}（A、B为HTML元素/标签，表示A标签匹配selector的A，B标签匹配selector的B时，B标签匹配样式）<br><figure class="highlight hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="hljs-selector-tag">style</span>&gt;</span><br><span class="line"><span class="hljs-selector-tag">div</span>~<span class="hljs-selector-tag">p</span>&#123;</span><br><span class="line">  <span class="hljs-attribute">color</span>:red;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;<span class="hljs-selector-tag">div</span>&gt;</span><br><span class="line">  &lt;p&gt;no red text&lt;/p&gt;&lt;!--文字是非红色的--&gt;</span><br><span class="line">  &lt;div&gt;no red text&lt;/div&gt;</span><br><span class="line">  &lt;p&gt;red text&lt;/p&gt;&lt;!--文字是红色的--&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure><br><br><div><br>  <p>no red text</p><!--文字是非红色的--><br>  <div>no red text</div><br>  <p style="color: red;">red text</p><!--文字是红色的--><br></div>
+        </div>
+        
+        <div class="level is-size-7 is-uppercase">
+            <div class="level-start">
+                <div class="level-item">
+                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
+                    <a class="has-link-grey -link" href="/tags/css/">css</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+<div class="card">
     <div class="card-content">
-        <div class="menu">
-            <h3 class="menu-label">
-                分类
-            </h3>
-            <ul class="menu-list">
-            <li>
-        <a class="level is-marginless" href="/categories/train/">
-            <span class="level-start">
-                <span class="level-item">train</span>
-            </span>
-            <span class="level-end">
-                <span class="level-item tag">1</span>
-            </span>
-        </a></li>
-            </ul>
+        <h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3>
+        <div class="buttons is-centered">
+            
+                
+<a class="button is-info donate">
+    <span class="icon is-small">
+        <i class="fab fa-alipay"></i>
+    </span>
+    <span>支付宝</span>
+    <div class="qrcode"><img src="/images/alipay.jpg" alt="支付宝"></div>
+</a>
+
+                
+                
+<a class="button is-success donate">
+    <span class="icon is-small">
+        <i class="fab fa-weixin"></i>
+    </span>
+    <span>微信</span>
+    <div class="qrcode"><img src="/images/wechat.jpg" alt="微信"></div>
+</a>
+
+                
         </div>
     </div>
-</div></div>
+</div>
+
+
+
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/2018/11/27/hello-world/">
+                <span class="level-item">Hello World</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
+
+
+</div>
                 
 
 
@@ -246,6 +349,17 @@
 </div>
     
         
+<div class="card widget" id="toc">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                目录
+            </h3>
+            
+        </div>
+    </div>
+</div>
+
     
         
 
@@ -553,7 +667,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/favicon.ico" alt="Jiefa" height="28">
+                    <img src="/images/favicon.ico" alt="css选择器" height="28">
                 
                 </a>
                 <p class="is-size-7">
