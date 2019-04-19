@@ -2,19 +2,24 @@
 <html lang="zh">
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-<title>Jiefa</title>
+<title>git-ignore规则 - Jiefa</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Jiefa">
-<meta property="og:url" content="http://florencev.github.io/index.html">
+    <meta name="description" content=".ignore忽略规则简单说明   表示此为注释,将被Git忽略.a             表示忽略所有 .a 结尾的文件!lib.a          表示但lib.a除外/TODO           表示仅仅忽略项目根目录下的 TODO 文件，不包括 subdir/TODObuild/          表示忽略 build/目录下的所有文件，过滤整个build文件夹；doc/.txt">
+<meta name="keywords" content="git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="git-ignore规则">
+<meta property="og:url" content="http://florencev.github.io/2019/03/19/git-ignore规则/index.html">
 <meta property="og:site_name" content="Jiefa">
+<meta property="og:description" content=".ignore忽略规则简单说明   表示此为注释,将被Git忽略.a             表示忽略所有 .a 结尾的文件!lib.a          表示但lib.a除外/TODO           表示仅仅忽略项目根目录下的 TODO 文件，不包括 subdir/TODObuild/          表示忽略 build/目录下的所有文件，过滤整个build文件夹；doc/.txt">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://florencev.github.io/images/og_image.png">
+<meta property="og:updated_time" content="2019-04-17T03:11:13.511Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Jiefa">
+<meta name="twitter:title" content="git-ignore规则">
+<meta name="twitter:description" content=".ignore忽略规则简单说明   表示此为注释,将被Git忽略.a             表示忽略所有 .a 结尾的文件!lib.a          表示但lib.a除外/TODO           表示仅仅忽略项目根目录下的 TODO 文件，不包括 subdir/TODObuild/          表示忽略 build/目录下的所有文件，过滤整个build文件夹；doc/.txt">
 <meta name="twitter:image" content="http://florencev.github.io/images/og_image.png">
 
 
@@ -89,7 +94,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/favicon.ico" alt="Jiefa" height="28">
+                <img src="/images/favicon.ico" alt="git-ignore规则" height="28">
             
             </a>
         </div>
@@ -97,7 +102,7 @@
             
             <div class="navbar-start">
                 
-                <a class="navbar-item is-active" href="/">主页</a>
+                <a class="navbar-item" href="/">主页</a>
                 
                 <a class="navbar-item" href="/archives">归档</a>
                 
@@ -125,66 +130,7 @@
     <section class="section">
         <div class="container">
             <div class="columns">
-                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main">
-    <div class="card">
-    
-    <div class="card-image">
-        <a href="/2019/04/09/css选择器/" class="image is-7by1">
-            <img class="thumbnail" src="/images/css.png" alt="css选择器">
-        </a>
-    </div>
-    
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-04-09T01:03:50.000Z">2019-04-09</time>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    6 分钟 读完 (大约 843 个字)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/2019/04/09/css选择器/">css选择器</a>
-            
-        </h1>
-        <div class="content">
-            <!-- ![css 图片](http://www.runoob.com/wp-content/uploads/2019/03/A042DF30-C232-46F3-8436-7D6C35351BBD.jpg)-->
-<!-- ![css 图片](images/css.png) -->
-<!-- photos: - "https://faithlove.github.io/pic/2018/HexoThumb/topPicPre.png" -->
-<!-- <img src="images/css.png"> -->
-<p>除了教程中的id选择器和class选择器，另还有元素选择器、属性选择器、包含选择器、子选择器和CSS3中新增的兄弟选择器，以下带上ID选择器和类选择器一起举例。<br>1.ID 选择器（ID selector，IS）：使用 # 标识selector，语法格式：#S{…}（S为选择器名）。例：id为name的标签会匹配下面的样式<br><figure class="highlight hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="hljs-selector-tag">style</span>&gt;</span><br><span class="line"><span class="hljs-selector-id">#name</span>&#123;</span><br><span class="line">  <span class="hljs-attribute">color</span>:red;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;p id="name"&gt;red text&lt;/p&gt;</span><br></pre></td></tr></table></figure></p>
-        </div>
-        
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/04/09/css选择器/#more">阅读更多</a>
-                </div>
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-
-    <div class="card">
+                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main"><div class="card">
     
     <div class="card-content article ">
         
@@ -209,22 +155,33 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                <a class="has-link-black-ter" href="/2019/03/19/git-ignore规则/">git-ignore规则</a>
+                git-ignore规则
             
         </h1>
         <div class="content">
             <p>.ignore忽略规则简单说明  </p>
-<h1 id="表示此为注释-将被Git忽略"><a href="#表示此为注释-将被Git忽略" class="headerlink" title="表示此为注释,将被Git忽略"></a>表示此为注释,将被Git忽略</h1><p><em>.a             表示忽略所有 .a 结尾的文件<br>!lib.a          表示但lib.a除外<br>/TODO           表示仅仅忽略项目根目录下的 TODO 文件，不包括 subdir/TODO<br>build/          表示忽略 build/目录下的所有文件，过滤整个build文件夹；<br>doc/</em>.txt       表示会忽略doc/notes.txt但不包括 doc/server/arch.txt<br></p>
+<h1 id="表示此为注释-将被Git忽略"><a href="#表示此为注释-将被Git忽略" class="headerlink" title="表示此为注释,将被Git忽略"></a>表示此为注释,将被Git忽略</h1><p><em>.a             表示忽略所有 .a 结尾的文件<br>!lib.a          表示但lib.a除外<br>/TODO           表示仅仅忽略项目根目录下的 TODO 文件，不包括 subdir/TODO<br>build/          表示忽略 build/目录下的所有文件，过滤整个build文件夹；<br>doc/</em>.txt       表示会忽略doc/notes.txt但不包括 doc/server/arch.txt<br> <a id="more"></a><br>bin/:           表示忽略当前路径下的bin文件夹，该文件夹下的所有内容都会被忽略，不忽略 bin 文件<br>/bin:           表示忽略根目录下的bin文件<br>/<em>.c:           表示忽略cat.c，不忽略 build/cat.c<br>debug/</em>.obj:    表示忽略debug/io.obj，不忽略 debug/common/io.obj和tools/debug/io.obj<br><strong>/foo:         表示忽略/foo,a/foo,a/b/foo等<br>a/</strong>/b:         表示忽略a/b, a/x/b,a/x/y/b等<br>!/bin/run.sh    表示不忽略bin目录下的run.sh文件<br>*.log:          表示忽略所有 .log 文件<br>config.php:     表示忽略当前路径的 config.php 文件</p>
+<p>/mtk/           表示过滤整个文件夹<br>*.zip           表示过滤所有.zip文件<br>/mtk/do.c       表示过滤某个具体文件</p>
+<p>被过滤掉的文件就不会出现在git仓库中（gitlab或github）了，当然本地库中还有，只是push的时候不会上传。</p>
+<p>需要注意的是，gitignore还可以指定要将哪些文件添加到版本管理中，如下：<br>!*.zip<br>!/mtk/one.txt</p>
+<p>唯一的区别就是规则开头多了一个感叹号，Git会将满足这类规则的文件添加到版本管理中。为什么要有两种规则呢？<br>想象一个场景：假如我们只需要管理/mtk/目录中的one.txt文件，这个目录中的其他文件都不需要管理，那么.gitignore规则应写为：：<br>/mtk/*<br>!/mtk/one.txt</p>
+<p>假设我们只有过滤规则，而没有添加规则，那么我们就需要把/mtk/目录下除了one.txt以外的所有文件都写出来！<br>注意上面的/mtk/*不能写为/mtk/，否则父目录被前面的规则排除掉了，one.txt文件虽然加了!过滤规则，也不会生效！</p>
+<hr>
+<p>还有一些规则如下：<br>fd1/*<br>说明：忽略目录 fd1 下的全部内容；注意，不管是根目录下的 /fd1/ 目录，还是某个子目录 /child/fd1/ 目录，都会被忽略；</p>
+<p>/fd1/*<br>说明：忽略根目录下的 /fd1/ 目录的全部内容；</p>
+<p>/<em><br>!.gitignore<br>!/fw/<br>/fw/</em><br>!/fw/bin/<br>!/fw/sf/<br>说明：忽略全部内容，但是不忽略 .gitignore 文件、根目录下的 /fw/bin/ 和 /fw/sf/ 目录；注意要先对bin/的父目录使用!规则，使其不被排除。</p>
+
         </div>
         
-        
-        <div class="level is-mobile">
+        <div class="level is-size-7 is-uppercase">
             <div class="level-start">
                 <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/03/19/git-ignore规则/#more">阅读更多</a>
+                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
+                    <a class="has-link-grey -link" href="/tags/git/">git</a>
                 </div>
             </div>
         </div>
+        
         
         
     </div>
@@ -232,69 +189,57 @@
 
 
 
-
-
-
-
-
-    <div class="card">
-    
-    <div class="card-image">
-        <a href="/2018/11/27/hello-world/" class="image is-7by1">
-            <img class="thumbnail" src="/images/og_image.png" alt="Hello World">
-        </a>
-    </div>
-    
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2018-11-27T09:42:24.594Z">2018-11-27</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/train/">train</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    1 分钟 读完 (大约 122 个字)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+<div class="card">
+    <div class="card-content">
+        <h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3>
+        <div class="buttons is-centered">
             
-                <a class="has-link-black-ter" href="/2018/11/27/hello-world/">Hello World</a>
-            
-        </h1>
-        <div class="content">
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="hljs-string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a><br></p>
+                
+<a class="button is-info donate">
+    <span class="icon is-small">
+        <i class="fab fa-alipay"></i>
+    </span>
+    <span>支付宝</span>
+    <div class="qrcode"><img src="/images/alipay.jpg" alt="支付宝"></div>
+</a>
+
+                
+                
+<a class="button is-success donate">
+    <span class="icon is-small">
+        <i class="fab fa-weixin"></i>
+    </span>
+    <span>微信</span>
+    <div class="qrcode"><img src="/images/wechat.jpg" alt="微信"></div>
+</a>
+
+                
         </div>
-        
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2018/11/27/hello-world/#more">阅读更多</a>
-                </div>
-            </div>
-        </div>
-        
-        
     </div>
 </div>
 
 
 
-
-
-
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        <div class="level-start">
+            <a class="level level-item has-link-grey  article-nav-prev" href="/2019/04/09/css选择器/">
+                <i class="level-item fas fa-chevron-left"></i>
+                <span class="level-item">css选择器</span>
+            </a>
+        </div>
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/2018/11/27/hello-world/">
+                <span class="level-item">Hello World</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
 
 
 </div>
@@ -841,7 +786,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/favicon.ico" alt="Jiefa" height="28">
+                    <img src="/images/favicon.ico" alt="git-ignore规则" height="28">
                 
                 </a>
                 <p class="is-size-7">
